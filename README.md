@@ -1,23 +1,79 @@
-# Code Institute
+# Tomhaltoir.com
+> Suíomh gréasáin do dhaoine le Gaeilge ar mhaith leo táirgí agus seirbhísí a fháil i nGaeilge!
 
-Welcome USER_NAME,
+## Clár na n-ábhar
+* [Faisnéis](#faisnéis)
+* [Gabhálacha](#gabhálacha)
+* [Teicneolaíochtaí](#teicneolaíochtaí)
+* [Socrú](#socrú)
+* [Gnéithe](#gnéithe)
+* [Stádas](#stádas)
+* [Tinfeadh](#tinfeadh)
+* [Teagmháil](#teagmháil)
 
-We have preinstalled all of the tools you need to get started.
+## Faisnéis
+Is suíomh gréasáin é www.tomhaltoir.com do dhaoine ar mian leo táirgí agus seirbhísí a fháil i nGaeilge.
 
-To run a frontend application in GitPod, in the terminal, type:
+## Gabhálacha
+![Example screenshot](./img/screenshot.png)
 
-`python3 -m http.server`
+## Teicneolaíochtaí
+* Tech 1 - version 1.0
+* Tech 2 - version 2.0
+* Tech 3 - version 3.0
 
-A blue button should appear to click: *Expose*,
+## Socrú
+Téigh chuig www.tomhaltoir.com chun an suíomh gréasáin a fheiceáil.
 
-Another blue button should appear to click: *Open Browser*.
+## Samplaí den chód
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="./assets/images/Banc.jpg" alt="Banc na hÉireann">
+            <div class="carousel-caption">
+            <h1 class="display-2">Cumann na dTomhaltóirí Gaeilge</h1>
+            <h3>!!Téacs le cur isteach anseo!!</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">View demo here</button>
+            <button type="button" class="btn btn-primary btn-lg">Get started</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/images/fiacloir.jpg" alt="Seomra feithimh in oifig fiaclóra">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/images/Lidl An Daingean.jfif" alt="Fógra in ollmhargadh Lidl">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Roimhe</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Ar aghaidh</span>
+    </a>
+</div>
 
-To run a backend python file, type `python3 app.py`, if your python file is named `app.py` of course.
+## Gnéithe
+Tá carousel deas ar an leathanach baile. Tá eolas i mBéarla do ghnólachtaí.
+* Cnuasach íomhánna de tháirgí agus comharthaí i nGaeilge.
+* Ceistiúchán do na baill.
+* Eolaire gnó.
 
-A blue button should appear to click: *Expose*,
+Nithe atá le déanamh fós:
+* Feabhsú atá le déanaí 1
+* 2 Feabhsú atá le déanaí
 
-Another blue button should appear to click: *Open Browser*.
+## Stádas
+Tá an tionscadal: _in progress_, mar ba mhaith liom i bhfad níos mó feidhmeanna a chur leis.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons. 
+## Tinfeadh
+Fuair mé tinfeadh don tionscadal seo ón bhfíseán YouTube https://www.youtube.com/watch?v=9cKsq14Kfsw , bunaithe ar Bootstrap.
 
-Happy coding!
+## Teagmháil
+Cruthaithe ag Seanán Ó Coistín [@seananocoistin](https://www.seanan.info/)

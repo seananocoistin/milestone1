@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,500,700');
 
 html, body {
     height: 100%;
     width: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #222;
 }
 .navbar {
@@ -19,7 +19,9 @@ html, body {
    font-size: 1.1em; !important
    color: #ffffff;
 }
-
+.container {
+    margin-top: 1rem;
+}
 .backtotop {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -105,7 +107,12 @@ footer {
 .footer p {
     float:left; width:100%; text-align:center; 
 }
-
+.form-row {
+    shadow: 10px 10px 10px #ccc;
+}
+.form-group {
+    shadow: 10px 10px 10px #ccc;
+}
 hr.light {
     border-top: 1px solid #ffffff;
     color: #ffffff;
@@ -178,6 +185,16 @@ figure {
     -webkit-transform:  translateZ(0);
             transform: translateZ(0);
     will-change: transform;
+}
+.orange-background {
+    text-align: left;
+    background: #e85019;
+    color: white;
+    border: 1px solid #e85019;
+    width: 75%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #ccc;
 }
 /*[class*="col-" {
   /*  padding: 1rem;

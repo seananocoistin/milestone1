@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ga">
-<html>
 
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>www.tomhaltoir.com | Cumann na dTomhaltóirí Gaeilge</title>
+<title>www.tomhaltoir.com | Cumann na dTomhaltóirí Gaeilge | Bí i do bhall de Chumann na dTomhaltóirí Gaeilge - Ballraíocht</title>
+<link rel="shortcut icon" type="image/ico" href="./assets/images/favicon.ico"> 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -19,74 +19,75 @@
 <body>
 
 <!--- navigation bar -->
-<nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: #e85019;">
+<nav class="navbar navbar-expand-md navbar-dark sticky-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="http://www.tomhaltoir.com/"><img src="./assets/images/suaitheantas1.png"></a>
+        <a class="navbar-brand" href="http://www.tomhaltoir.com/"><img src="./assets/images/suaitheantas1.png" alt="logo for Cumann na dTomhaltóirí Gaeilge"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
   <div class="collapse navbar-collapse" id="navbarResponsive">
-    <ul class="navbar-nav ml-auto">
-     <li class="nav-item">
-        <a class="nav-link" href="/index.html">Baile</a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/index.html">BAILE</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/ball.html">Bí i do bhall<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/ball.html">BÍ I DO BHALL<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/maidir-linn.html">Maidir linn</a>
+        <a class="nav-link" href="/maidirlinn.html">MAIDIR LINN</a>
       </li>
           <li class="nav-item">
-        <a class="nav-link" href="/information.html">Information for Businesses</a>
+        <a class="nav-link" href="/information.html">INFORMATION FOR BUSINESSES</a>
       </li>
     </ul>
   </div>
   </div>
 </nav>
-
+<!--- On this page people can quickly register to become members of the organisation -->
 <div class="container">
+<img class="img-fluid" src="./assets/images/baill.jpg" alt="Crith láimhe nuair a chláraíonn tú leis an gCumann"><br></br>
 <div class="text">
  <h2 class="orange-background">Bí i do bhall den Chumann</h2>
  <p>Líon an fhoirm thíos agus beimid i dteagmháil leat go luath.</p> 
  <p>A luath is a bheidh sé déanta agat, seolfar teachtaireacht ríomhphoist chugat le deimhniú ann gur chláraigh tú leis an gCumann.</p>
- <strong><p>Go raibh maith agat.</p></strong>
-<form>
+ <strong>Go raibh maith agat.</strong>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputfirstname">Céad ainm</label>
       <input type="text" class="form-control" id="inputfirstname">
     </div>
+    </div>
+    <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputlastname">Sloinne</label>
       <input type="text" class="form-control" id="inputlastname">
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-row">
+  <div class="form-group col-md-6">
     <label for="inputemail">Seoladh ríomhphoist</label>
     <input type="email" class="form-control" id="inputemail" placeholder="tadhg@gmail.com">
   </div>
-  <div class="form-group">
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-6">
     <label for="inputtelephone">D'uimhir ghutháin</label>
     <input type="text" class="form-control" id="inputtelephone" placeholder="+353-1234567890">
   </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputCity">Baile/Contae</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
   </div>
-  <div>
+  <!--- People registering have an option to indicate that they would like to be on the committee of the organisation -->
     <p><strong>Ar mhaith leat a bheith i do bhall de choiste gnó an Chumainn chun cabhrú linn an cumann a fhorbairt?</strong> (roghnach)</p>
+    <div class="radiobutton">
       <input type="radio" value="Ba mhaith liom" id="optionalquestion">
       <input type="submit" value="Ba mhaith liom">
+      </div>
     </div>
-  </div>
   <div class="form-group">
     </div>
   <button type="submit" class="btn btn-primary">CLÁRAIGH</button>
-</form>
 <br></br>
 <div class="texts">
+<!--- This is a message to advise people that there details will not be shared with any other body and details are only collected for administrative and research reasons -->
 <p>AIRE: <strong>Ní roinnfear</strong> do shonraí le haon dream eile. Is ar mhaithe le riarachán agus chun taighde a dhéanamh faoi na hearraí is mian leat a cheannach a bhailítear an t-eolas seo.</p>
 </div>
 <div class="backtotop">
@@ -94,6 +95,7 @@
 </div>
 </div>
 
+<!--- footer with live links -->
 <footer>
 <div class="container-fluid padding">
 <div class="row text-center">
@@ -106,14 +108,15 @@
         </div>
         <div class="col-md-4">
             <p><strong>Lean sinn ar Facebook</strong></p>
-            <a href="https://www.facebook.com/tomhaltoiri"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/tomhaltoiri" target="_blank"><i class="fab fa-facebook"></i></a>
         </div>
         <div class="col-md-4">
             <p><strong>Déan teagmháil linn:</strong></p>
-            <p>eolas@tomhaltoir.com</p>
+            <a href="mailto:eolas@tomhaltoir.com?Subject=Teachtaireacht%20nua%20ón%20suíomh" target="_top">eolas@tomhaltoir.com</a>
         </div>
         </div>
-    </div>     
+    </div> 
+    </div>    
  </div>     
 </div>
 </div>
